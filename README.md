@@ -14,11 +14,11 @@ Posizionare e Saldare i pin headers con la saldatura verso il retro e i pin head
 
 ### Step 3:
 Saldare il tasto Reset posizionandolo sulla sua piazzola disegnata.
-![step3](/images/step3.JPG)
+![step3](/images/step3.jpg)
 
 ### Step 4: 
 Saldare il mcirocontrollore sui pin headers, posizionandolo a faccia in giù e lasciando come offset i due pin vicino l'USB vuoti.
-![step4](/images/step4.jpg")
+![step4](/images/step4.jpg)
 
 ### Step 5:
 Saldare gli switch MX come una comune tastiera.
