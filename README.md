@@ -22,3 +22,21 @@ Saldare il mcirocontrollore sui pin headers, posizionandolo a faccia in giù e l
 
 ### Step 5:
 Saldare gli switch MX come una comune tastiera.
+
+## Firmware Flash:
+
+### Step 1:
+Collegare la board al pc tramite USB 
+
+### Step 2:
+La board verrà riconosciuta dal PC come una unità di memoria chiamata "RPI-2040" 
+
+### Step 3:
+Drag & Drop del file ![fw](R12_QMK_0_9.uf2) nella root di RPI-2040 e attendere al riavvio
+
+### Extra Step: 
+Per qualsiasi necessità in cui il firmware sia stato scritto male o sia difettoro basterà premere due volte entro 1 secondo il tasto reset mentre la board è collegata all'USB e tornerà in DFU mode e dunque visibile come memoria di massa "RPI-2040"
+
+## Scrivere e compilare il Firmware
+
+### TODO
