@@ -6,7 +6,7 @@ R12 macropad build guide (provvisoria)
 
 ### Step 1:
 Saldare i diodi posizionandoli sui corrispetivi disegni con la linea nera verso la freccia.
-![step1]("images/step1.JPG](https://github.com/MoltenKhor/R12/blob/main/images/step1.JPG")
+![step1](https://github.com/MoltenKhor/R12/blob/main/images/step1.JPG")
 
 ### Step 2: 
 Posizionare e Saldare i pin headers con la saldatura verso il retro e i pin headers verso il top.
