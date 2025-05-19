@@ -115,16 +115,16 @@ Tornando nella directory principale di r12, con un programmadi editing testo, in
 ```
 
 Qui di seguito spiegata l'utilità di ogni riga:
-manufacturer: scrive in memoria il nome di chi ha progettato la board, potete modificarlo col vostro nome.
-keyboard_name: scrive in memoria il nome del dispositivo USB che verrà visualizzato dal PC, potete modificarlo a vostro piacimento.
-maintainer: utilizzato dalla repo di QMK per identificare chi si occhupa del firmware, potete modificarlo a vostro piacimento.
-development_board: indica la piattaforma e architettura utilizzata per la board, NON MODIFICARE! È necessaria per QMK per la corretta compilazione del firmware.
-diode_direction: indica la logica in cui sono posizionati i diodi rispettivamente tra righe e colonne, NON MODIFICARE!
-feature: elenca svariate feature che la board ha, aggiungere o rimuovere con true e false potrebbero impattare il funzionamento del firmware.
-matrix_pins: indicano i pin di collegamento delle colonne e righe al microcontrollore, NON MODIFICARE! altrimenti la matrice non viene più riconosciuta.
-url: usato da QMK per mandare un visitatore della pagina firmware al designer principale, modificare a piacimento.
-usb: Sono parametri che permettono di identificare univocamente la board al controller USB del PC, consigliabile non modificare.
-layous: elenca tutti i layout disponibili, in questo caso uno solo, con il rispettivo collegamento matriciale delle posizioni dei tasti.
+* manufacturer: scrive in memoria il nome di chi ha progettato la board, potete modificarlo col vostro nome.
+* keyboard_name: scrive in memoria il nome del dispositivo USB che verrà visualizzato dal PC, potete modificarlo a vostro piacimento.
+* maintainer: utilizzato dalla repo di QMK per identificare chi si occhupa del firmware, potete modificarlo a vostro piacimento.
+* development_board: indica la piattaforma e architettura utilizzata per la board, NON MODIFICARE! È necessaria per QMK per la corretta compilazione del firmware.
+* diode_direction: indica la logica in cui sono posizionati i diodi rispettivamente tra righe e colonne, NON MODIFICARE!
+* feature: elenca svariate feature che la board ha, aggiungere o rimuovere con true e false potrebbero impattare il funzionamento del firmware.
+* matrix_pins: indicano i pin di collegamento delle colonne e righe al microcontrollore, NON MODIFICARE! altrimenti la matrice non viene più riconosciuta.
+* url: usato da QMK per mandare un visitatore della pagina firmware al designer principale, modificare a piacimento.
+* usb: Sono parametri che permettono di identificare univocamente la board al controller USB del PC, consigliabile non modificare.
+* layous: elenca tutti i layout disponibili, in questo caso uno solo, con il rispettivo collegamento matriciale delle posizioni dei tasti.
 
 ## Step 7:
 una volta salvati i files è ora possibile compilare il firmware, tramite terminale, in qualsiasi directory vi troviate usate la seguente stringa:
